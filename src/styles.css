@@ -1,0 +1,43 @@
+/* 
+font-family: 'Nunito', sans-serif;
+font-family: 'Style Script', cursive;
+*/
+:root {
+  --primary-color: rgb(59, 53, 102);
+  --secondary-color: rgb(136, 93, 241);
+  --links-color: rgb(39, 32, 68);
+  --font-family: "Nunito", sans-serif;
+  --font-size: 16px;
+}
+.bg-image {
+  background-size: cover;
+  background-position: center;
+}
+h3 {
+  color: var(--primary-color);
+  font-family: "Style Script", cursive;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 38px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: var(--links-color);
+  transform: all 100ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--secondary-color);
+}
