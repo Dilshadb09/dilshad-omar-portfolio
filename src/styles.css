@@ -3,41 +3,111 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Style Script', cursive;
 */
 :root {
-  --primary-color: rgb(59, 53, 102);
-  --secondary-color: rgb(136, 93, 241);
+  --primary-color: rgba(128, 0, 128, 1);
+  --secondary-color: rgba(247, 223, 247, 1);
   --links-color: rgb(39, 32, 68);
   --font-family: "Nunito", sans-serif;
   --font-size: 16px;
+  --box-shadow:box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
-.bg-image {
-  background-size: cover;
-  background-position: center;
+
+.navbar {
+  background-color: var(--primary-color);
+  margin-bottom: 50px;
 }
-h3 {
-  color: var(--primary-color);
+.navbar-brand {
   font-family: "Style Script", cursive;
 }
+h1 {
+  font-family: "Style Script", cursive;
+  margin-top: 140px;
+  color: var(--primary-color);
 
-nav {
-  padding: 20px 0;
+  background-color: var(--secondary-color);
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  
 }
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 38px;
-  margin-left: 15px;
+.main-heading {
+  font-size: 128px;
+  font-family: "Style Script", cursive;
+
+  padding-left: 100px;
+  
 }
-nav ul {
-  padding: 0;
-  margin: 0;
+
+p {
+  font-family: var(--font-family);
+  font: size 42px;
+  font-weight: 800;
 }
-nav a {
+.secondary-font {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+button {
+background: var(--primary-color);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 16px 24px;
+  margin: 0 auto;
+  display: block;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-weight: bolder;
   text-decoration: none;
-  color: var(--links-color);
-  transform: all 100ms ease-in-out;
+  transition: all 100ms ease;
+  box-shadow: 5px 5px 5px #a2a8d3;
+}
+button:hover{
+  color: rgba(128, 0, 128, 1);
+  background: var(--secondary-color);
+}
+.footer-banner{
+  background:rgba(128, 0, 128, 1);
+}
+.social-icons{
+  
+font-size: 40px;
+}
+.github,.linkedin{
+  color: var(--primary-color);
+}
+.github:hover,.linkedin:hover{
+  color: var(--secondary-color);
 }
 
-nav li.active a,
-nav a:hover {
-  color: var(--secondary-color);
+.profile-p{
+  font-family: var(--font-family);
+  font-size: 24px;
+  text-align: center;
+}
+h3{
+  font-family: "Style Script", cursive;
+  font-size: 96px;
+  margin-top: 50px;
+  color: var(--primary-color);
+
+  background-color: var(--secondary-color);
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+h4{
+
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h2{
+color: var(--primary-color);
+
+}
+.profile-pic{
+width:auto;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 5px 5px 5px #a2a8d3;
 }
