@@ -28,6 +28,16 @@ h1 {
   border-top-right-radius: 30px;
   
 }
+h2{
+   font-family: "Style Script", cursive;
+  margin-top: 140px;
+  color: var(--primary-color);
+margin-left: 400px;
+margin-right: 100px;
+  background-color: var(--secondary-color);
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
 .main-heading {
   font-size: 128px;
   font-family: "Style Script", cursive;
@@ -87,6 +97,7 @@ font-size: 40px;
 h3{
   font-family: "Style Script", cursive;
   font-size: 96px;
+  
   margin-top: 50px;
   color: var(--primary-color);
 
@@ -94,6 +105,7 @@ h3{
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
 h4{
 
   font-family: var(--font-family);
@@ -107,6 +119,15 @@ color: var(--primary-color);
 }
 .profile-pic{
 width:auto;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 5px 5px 5px #a2a8d3;
+}
+.work-heading{
+  margin-left:150px
+}
+.work-pic{
+  width:auto;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
   box-shadow: 5px 5px 5px #a2a8d3;
