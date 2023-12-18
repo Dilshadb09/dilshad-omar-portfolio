@@ -143,3 +143,36 @@ width:auto;
 
   font-size: 40px;
 }
+
+@media  (max-width: 600px){
+.navbar{
+  margin-bottom: 0px;
+}
+
+.main-heading {
+  font-size: 60px;
+  font-family: "Style Script", cursive;
+
+  padding-left: 5px;
+  
+}
+.social-icons{
+  
+font-size: 23px;
+}
+
+p {
+  
+  font: size 21px;
+  font-weight: 400px;
+}
+.profile-pic{
+width:150px;
+
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 2px 2px 2px #a2a8d3;
+}
+
+  
+}
