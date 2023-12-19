@@ -59,7 +59,7 @@ p {
 
 button {
 background: var(--primary-color);
-  color: white;
+  
   font-size: 18px;
   line-height: 27px;
   padding: 16px 24px;
@@ -72,9 +72,16 @@ background: var(--primary-color);
   transition: all 100ms ease;
   box-shadow: 5px 5px 5px #a2a8d3;
 }
+button a{
+  color:white;
+  text-decoration: none;
+}
 button:hover{
-  color: rgba(128, 0, 128, 1);
+  
   background: var(--secondary-color);
+}
+button:hover a{
+  color: var(--primary-color);
 }
 .footer-banner{
   background:rgba(128, 0, 128, 1);
